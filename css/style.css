@@ -1,0 +1,66 @@
+body {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to top right, #7380cc, #d7c6ee);
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+
+.text-purple{
+    color: #7c89d5;
+}
+
+.func-sidebar > .nav-link.active {
+    background-color: #a3abdb;
+    color: #fff;
+}
+
+.func-sidebar > .nav-link.active:focus {
+    background-color: #a3abdb;
+}
+
+.func-sidebar > button {
+    color: #97a0d1;
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    text-align: left;
+}
+
+.btn-hover > i:hover {
+    color: #7c89d5;
+}
+
+.shortcutLink {
+    position: relative;
+}
+
+.AdsAnalyzelist > ul > li > button {
+    color: #97a0d1;
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;
+    text-align: center;
+    min-width: 10rem;
+    max-width: 10rem;
+}
+
+.AdsAnalyzelist > ul > li > .nav-link.active {
+    color: #7380cc;
+    background-color: #e5e6ee;
+}
+
+.AdsAnalyzelist > ul > li > .nav-link.active:focus {
+    background-color: #e5e6ee;
+}
+
+/* .shortcutLink > div > img {
+    font-weight: 500;
+    color: #7c89d5;
+    border-radius: 0.25rem;
+    height: 4rem;
+    width: auto;
+    opacity: .7;
+} */
+
+/* .btn-hover > span{
+    color: #7c89d5;
+} */

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    </head>
+
+    <body class="p-4" style="font-family: 'Lexend Deca', sans-serif">
+
+        <div style="-webkit-box-shadow: 8px 8px 8px 8px #7078a180;" class="container-fuild p-2 card my-3">
+
+        <!-- Navbar -->
+            <div class="row justify-items-around align-self-center w-100 px-4 mb-4">
+                <strong class="col-6 py-3 fs-3 text-purple text-left">
+                    <i class="fas fa-leaf"></i> YYDASH
+                </strong>
+                <div class="col-6 py-4 fs-5 text-secondary text-end btn-hover">
+                    <i class="fas fa-bell me-3"></i>
+                    <i class="fas fa-cog me-3"></i>
+                    <i class="fas fa-user-circle me-1"></i>
+                    <span>WAVENET.COM</span>
+                </div>
+            </div>
+
+        <!-- Left function Sidebar -->
+            <div class="row px-4 mb-5">
+                <div class="col-12">
+                    <div class="d-flex align-items-start">
+                        <div class="func-sidebar nav card flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fas fa-home"></i> Home</button>
+                            <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fas fa-user-circle"></i> Profile</button>
+                            <button class="nav-link" id="v-pills-performance-tab" data-bs-toggle="pill" data-bs-target="#v-pills-performance" type="button" role="tab" aria-controls="v-pills-performance" aria-selected="false"><i class="fas fa-chart-pie"></i> Performance</button>
+                            <button class="nav-link active" id="v-pills-analyze-tab" data-bs-toggle="pill" data-bs-target="#v-pills-analyze" type="button" role="tab" aria-controls="v-pills-analyze" aria-selected="false"><i class="fas fa-chart-bar"></i> Analyze</button>
+                            <button class="nav-link" id="v-pills-application-tab" data-bs-toggle="pill" data-bs-target="#v-pills-application" type="button" role="tab" aria-controls="v-pills-application" aria-selected="false"><i class="fas fa-paper-plane"></i> Application</button>
+                            <button class="nav-link" id="v-pills-permission-tab" data-bs-toggle="pill" data-bs-target="#v-pills-permission" type="button" role="tab" aria-controls="v-pills-permission" aria-selected="false"><i class="fas fa-address-card"></i> Permission</button>
+                            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fas fa-toolbox"></i> Settings</button>
+                            <button class="nav-link" id="v-pills-contact-tab" data-bs-toggle="pill" data-bs-target="#v-pills-contact" type="button" role="tab" aria-controls="v-pills-contact" aria-selected="false"><i class="fas fa-headset"></i> Contact</button>
+                            <button class="nav-link" id="v-pills-faq-tab" data-bs-toggle="pill" data-bs-target="#v-pills-faq" type="button" role="tab" aria-controls="v-pills-faq" aria-selected="false"><i class="fas fa-question-circle"></i> FAQ</button>
+                        </div>
+
+                        <div class="tab-content card" id="v-pills-tabContent">
+                            <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                            <div class="tab-pane fade" id="v-pills-performance" role="tabpanel" aria-labelledby="v-pills-performance-tab">...</div>
+                            <div class="tab-pane fade show active" id="v-pills-analyze" role="tabpanel" aria-labelledby="v-pills-analyze-tab">
+
+                            <!-- Ads Analyze list -->
+                                <div class="row d-flex justify-content-around px-4 mb-3">
+                                    <div class="text-center text-purple py-2 AdsAnalyzelist">
+                                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="pills-male-tab" data-bs-toggle="pill" data-bs-target="#pills-male" type="button" role="tab" aria-controls="pills-male" aria-selected="true">Male</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="pills-maleVIP-tab" data-bs-toggle="pill" data-bs-target="#pills-male-VIP" type="button" role="tab" aria-controls="pills-maleVIP" aria-selected="false">Male-VIP</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="pills-female-tab" data-bs-toggle="pill" data-bs-target="#pills-female" type="button" role="tab" aria-controls="pills-female" aria-selected="false">Female</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="pills-femaleVIP-tab" data-bs-toggle="pill" data-bs-target="#pills-female-VIP" type="button" role="tab" aria-controls="pills-female-VIP" aria-selected="false">Female-VIP</button>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="pills-male" role="tabpanel" aria-labelledby="pills-male-tab">...</div>
+                                        <div class="tab-pane fade" id="pills-maleVIP" role="tabpanel" aria-labelledby="pills-maleVIP-tab">...</div>
+                                        <div class="tab-pane fade" id="pills-female" role="tabpanel" aria-labelledby="pills-female-tab">...</div>
+                                        <div class="tab-pane fade" id="pills-femaleVIP" role="tabpanel" aria-labelledby="pills-femaleVIP-tab">...</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-application" role="tabpanel" aria-labelledby="v-pills-application-tab">...</div>
+                        <div class="tab-pane fade" id="v-pills-permission" role="tabpanel" aria-labelledby="v-pills-permission-tab">...</div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                        <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">...</div>
+                        <div class="tab-pane fade" id="v-pills-faq" role="tabpanel" aria-labelledby="v-pills-faq-tab">...</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- <div class="row px-4 mb-3">
+            <div class="col-12">
+                <div class="card text-center text-purple py-2 shortcutLink">
+                    <div class="d-flex justify-content-around">
+                        <img class="card" src="https://www.wavenet.com.tw/wp-content/uploads/2022/01/%E8%BC%BF%E6%83%85%E5%88%86%E6%9E%90%E5%88%8A%E9%A0%AD%E5%9C%96-min-1024x597.jpeg" />
+                        <img class="card" src="https://www.wavenet.com.tw/wp-content/uploads/2021/08/%E5%88%8A%E9%A0%AD%E5%9C%96-min-1024x597.jpeg" />
+                        <img class="card" src="https://www.wavenet.com.tw/wp-content/uploads/2021/12/1200x700-%E6%96%87%E7%AB%A0%E5%88%8A%E9%A0%AD%E5%9C%96%E7%B5%B1%E4%B8%80%E5%B0%BA%E5%AF%B8.001-1024x597.jpg" />
+                        <img class="card" src="https://www.wavenet.com.tw/wp-content/uploads/2021/11/%E5%90%88%E7%85%A7-1024x683.jpeg" />
+                        <img class="card" src="https://www.wavenet.com.tw/wp-content/uploads/2021/10/%E5%88%8A%E9%A0%AD%E5%9C%96-min-1024x597.jpeg" />
+                        <img class="card" src="https://www.wavenet.com.tw/wp-content/uploads/2021/09/%E5%B0%88%E8%A8%AA%E6%96%B0%E8%81%9E%E7%A8%BF-min-1024x597.jpeg" />
+                        <img class="card" src="https://www.wavenet.com.tw/wp-content/uploads/2021/11/%E5%90%88%E7%85%A7-1024x683.jpeg" />
+                        <img class="card" src="https://www.wavenet.com.tw/wp-content/uploads/2021/08/1200x700-%E6%96%87%E7%AB%A0%E5%88%8A%E9%A0%AD%E5%9C%96%E7%B5%B1%E4%B8%80%E5%B0%BA%E5%AF%B8.001-min-1024x597.jpeg" />
+                        <img class="card" src="https://www.wavenet.com.tw/wp-content/uploads/2021/09/1200x700-%E6%96%87%E7%AB%A0%E5%88%8A%E9%A0%AD%E5%9C%96%E7%B5%B1%E4%B8%80%E5%B0%BA%E5%AF%B8.001-min-1024x597.jpeg">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+
+    <footer class="text-light text-center my-3"><small>Copyright © 2021 Wavenet. all rights reserved.</small></footer>
+
+    </body>
+</html>
