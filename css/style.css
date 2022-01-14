@@ -7,6 +7,15 @@ body {
 }
 
 .text-purple{
+    font-weight: 300;
+    color: #7c89d5;
+}
+
+.text-purpleLight{
+    color: #ced0e0;
+}
+
+.text-purpleLight:hover{
     color: #7c89d5;
 }
 
@@ -30,8 +39,18 @@ body {
     color: #7c89d5;
 }
 
+.btn-hover-line:hover{
+    color: #fff;
+    background-color: #97a0d1;
+    border-color: #97a0d1;
+}
+
 .shortcutLink {
     position: relative;
+}
+
+.AdsAnalyzelist > ul {
+    align-content: center;
 }
 
 .AdsAnalyzelist > ul > li > button {
@@ -41,6 +60,11 @@ body {
     text-align: center;
     min-width: 10rem;
     max-width: 10rem;
+    overflow-x: auto;
+}
+
+.AdsAnalyzelist > ul > li > .nav-link {
+    margin-top: .7rem;
 }
 
 .AdsAnalyzelist > ul > li > .nav-link.active {
@@ -52,15 +76,45 @@ body {
     background-color: #e5e6ee;
 }
 
-/* .shortcutLink > div > img {
-    font-weight: 500;
-    color: #7c89d5;
-    border-radius: 0.25rem;
-    height: 4rem;
-    width: auto;
-    opacity: .7;
-} */
+#breadcrumb {
+    display: inline-flex !important;
+    justify-content: space-around;
+    height: 2rem;
+}
 
-/* .btn-hover > span{
-    color: #7c89d5;
-} */
+#breadcrumb > ol {
+    margin-top: .2rem;
+}
+
+#breadcrumb > ol > li {
+    padding-top: .25rem;
+}
+
+#breadcrumb > ol > li:nth-child(4) {
+    position: absolute;
+    padding-top: 0rem;
+    right: 3%;
+}
+
+#breadcrumb > ol > li > a {
+    margin-top: 0.5rem;
+    color: #7380cc;
+}
+
+.DataContent > .tab-pane {
+    position: absolute;
+}
+
+.DataContent > .tab-pane > div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    width: 35vw;
+    min-height: 25.3vw;
+}
