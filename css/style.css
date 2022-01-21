@@ -35,6 +35,13 @@ body {
     text-align: left;
 }
 
+.func-sidebar > a {
+    color: #97a0d1;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    text-align: left;
+}
+
 .btn-hover > i:hover {
     color: #7c89d5;
 }
@@ -116,5 +123,7 @@ body {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
     width: 35vw;
-    min-height: 46vh;
+    min-height: 54.5vh;
+    max-height: 54.5vh;
+    overflow-y: hidden;
 }
