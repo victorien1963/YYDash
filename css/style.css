@@ -6,16 +6,16 @@ body {
     font-size: 18px;
 }
 
-.text-purple{
+.text-purple {
     font-weight: 300;
     color: #7c89d5;
 }
 
-.text-purpleLight{
+.text-purpleLight {
     color: #ced0e0;
 }
 
-.text-purpleLight:hover{
+.text-purpleLight:hover {
     color: #7c89d5;
 }
 
@@ -30,7 +30,7 @@ body {
 
 .func-sidebar > button {
     color: #97a0d1;
-    padding: .8rem 1.5rem;
+    padding: 1rem 1.5rem;
     border-radius: .5rem;
     text-align: left;
 }
@@ -39,7 +39,7 @@ body {
     color: #7c89d5;
 }
 
-.btn-hover-line:hover{
+.btn-hover-line:hover {
     color: #fff;
     background-color: #97a0d1;
     border-color: #97a0d1;
@@ -116,5 +116,5 @@ body {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
     width: 35vw;
-    min-height: 25.3vw;
+    min-height: 46vh;
 }
