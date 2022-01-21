@@ -1,55 +1,79 @@
 body {
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to top right, #7380cc, #d7c6ee);
+    background: linear-gradient(to top right, #2c0e10, #77323a);
     background-repeat: no-repeat;
     font-size: 18px;
 }
 
-.text-purple {
+.nav-link:hover {
+    color: #3f1d1d;
+}
+
+.text-darkRed {
     font-weight: 300;
-    color: #7c89d5;
+    color: #801e26;
 }
 
-.text-purpleLight {
-    color: #ced0e0;
+.text-darkRed:hover {
+    color: #964c4c;
 }
 
-.text-purpleLight:hover {
-    color: #7c89d5;
+.text-red {
+    color: #e0ced1;
+}
+
+.text-red:hover {
+    color: #964c4c;
 }
 
 .func-sidebar > .nav-link.active {
-    background-color: #a3abdb;
+    background-color: #c5c0c0;
     color: #fff;
 }
 
 .func-sidebar > .nav-link.active:focus {
-    background-color: #a3abdb;
+    background-color: #c5c0c0;
 }
 
 .func-sidebar > button {
-    color: #97a0d1;
+    color: #964c4c;
     padding: 1rem 1.5rem;
     border-radius: .5rem;
     text-align: left;
+}
+
+.func-sidebar > button:hover {
+    color: #3f1d1d;
 }
 
 .func-sidebar > a {
-    color: #97a0d1;
+    color: #964c4c;
     padding: 1rem 1.5rem;
     border-radius: .5rem;
     text-align: left;
 }
 
+.func-sidebar > a:hover {
+    color: #3f1d1d;
+}
+
+.func-sidebar > a:focus {
+    color: #3f1d1d;
+}
+
+.func-sidebar > a:active {
+    color: #3f1d1d;
+}
+
 .btn-hover > i:hover {
-    color: #7c89d5;
+    color: #964c4c;
 }
 
 .btn-hover-line:hover {
     color: #fff;
-    background-color: #97a0d1;
-    border-color: #97a0d1;
+    background-color: #964c4c;
+    border-color: #964c4c;
 }
 
 .shortcutLink {
@@ -61,7 +85,7 @@ body {
 }
 
 .AdsAnalyzelist > ul > li > button {
-    color: #97a0d1;
+    color: #964c4c;
     padding: .5rem 1.5rem;
     border-radius: .5rem;
     text-align: center;
@@ -75,12 +99,12 @@ body {
 }
 
 .AdsAnalyzelist > ul > li > .nav-link.active {
-    color: #7380cc;
-    background-color: #e5e6ee;
+    color: #964c4c;
+    background-color: #eee5ec;
 }
 
 .AdsAnalyzelist > ul > li > .nav-link.active:focus {
-    background-color: #e5e6ee;
+    background-color: #eee5ec;
 }
 
 #breadcrumb {
@@ -105,7 +129,7 @@ body {
 
 #breadcrumb > ol > li > a {
     margin-top: 0.5rem;
-    color: #7380cc;
+    color: #964c4c;
 }
 
 .DataContent > .tab-pane {
